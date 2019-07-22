@@ -98,7 +98,7 @@ for more information.
     zip_safe = False,
     install_requires = [
         'jinja2',
-        'tornado>=4',
+        'tornado==5.1.1',  # Pin tornado until tornado 6 support is merged into branch
         # pyzmq>=17 is not technically necessary,
         # but hopefully avoids incompatibilities with Tornado 5. April 2018
         'pyzmq>=17',
